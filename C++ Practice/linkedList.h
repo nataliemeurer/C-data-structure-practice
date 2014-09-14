@@ -13,11 +13,11 @@
 #include "node.h"
 
 class linkedList{
+    int size;
+    node *current;
+public:
     node *head;
     node *tail;
-    node *current;
-    int size;
-public:
     linkedList();
     void addHead(string val);
     void addTail(string val);

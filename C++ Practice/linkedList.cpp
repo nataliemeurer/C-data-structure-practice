@@ -44,13 +44,30 @@ void linkedList::addTail(string val){
 };
 
 string linkedList::removeHead(){
-    
+    if ( size == 0 ){
+        throw("cannot remove item from an empty list");
+    } else {
+        node *removed = this->head;
+        delete &head;
+        removed->next->prev = NULL;
+        head = removed->next;
+        return removed->value;
+    }
 };
 
 string linkedList::removeTail(){
-    
+    if ( size == 0 ){
+        throw("cannot remove item from an empty list");
+    } else {
+        node *removed = this->tail;
+        delete &tail;
+        removed->prev->next = NULL;
+        tail = removed->prev;
+        return removed->value;
+    }
+
 };
 
 bool linkedList::contains(){
-    forreturn true;
+    return true;
 };

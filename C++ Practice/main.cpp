@@ -7,12 +7,19 @@
 //
 
 #include <iostream>
+#include "linkedList.h"
 
 int main(int argc, const char * argv[])
 {
+    linkedList myList = *new linkedList();
+    myList.addHead("hello");
+    myList.addTail("Kevin");
+    
+    
+    
+    
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+
     return 0;
 }
 
