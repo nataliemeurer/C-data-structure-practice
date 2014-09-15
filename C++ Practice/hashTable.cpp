@@ -70,6 +70,10 @@ int hashTable::hash(string key){
     return idx;
 };
 
+double hashTable::getValue(string key){
+    int idx = hash(key);
+    return storage[idx]->getValue();
+}
 
 int hashTable::getSize(){
     return limit;

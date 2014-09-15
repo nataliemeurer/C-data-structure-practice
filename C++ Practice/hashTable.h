@@ -26,6 +26,7 @@ public:
     hashTable();
     void resize(int newLimit);
     void insert(string key, double value);
+    double getValue(string key);
     double remove(string key);
     int getSize();
     int getCount();

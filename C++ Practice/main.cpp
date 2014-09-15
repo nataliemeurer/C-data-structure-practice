@@ -21,6 +21,9 @@ int main(int argc, const char * argv[])
     hashTable myHash = *new hashTable();
     myHash.insert("Riley", 25);
     myHash.insert("Kevin", 20);
+    myHash.remove("Kevin");
+    myHash.insert("something", 509.1);
+    cout << "value of Riley is " << myHash.getValue("Riley")<<endl;
     myHash.printItems();
     return 0;
 }
