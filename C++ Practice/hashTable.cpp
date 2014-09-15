@@ -7,3 +7,26 @@
 //
 
 #include "hashTable.h"
+
+hashTable::hashTable(){
+    storage = new float [_limit];
+};
+
+void hashTable::resize(int newLimit){
+    
+};
+
+void hashTable::addItem(string key, double value){
+
+};
+
+double hashTable::removeItem(string key){
+    return 1;
+};
+
+int hash(float key){
+    return key;
+};
+int hash(string key){
+    return 1;
+};

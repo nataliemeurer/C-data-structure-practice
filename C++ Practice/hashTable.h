@@ -16,12 +16,16 @@
 using namespace std;
 
 class hashTable {
-    int limit = 8; // set size equal to 8 initially for natural resizing
-    
-    
+    int _limit; // set size equal to 8 initially, to be resized later if necess for natural resizing
+    float *storage;
+public:
+    hashTable();
+    void resize(int newLimit);
+    void addItem(string key, double value);
+    double removeItem(string key);
 };
 
-int hash(float Key);//declared separately but inside hash file for convenience and organization
-int hash(string Key);
+int hash(float key);//declared separately but inside hash file for convenience and organization
+int hash(string key);
 
 #endif /* defined(__C___Practice__hashTable__) */
