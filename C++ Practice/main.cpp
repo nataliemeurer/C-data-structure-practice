@@ -17,5 +17,10 @@ int main(int argc, const char * argv[])
     linkedList myList = *new linkedList();
     myList.addHead("hello");
     myList.addTail("Kevin");
+    
+    hashTable myHash = *new hashTable();
+    myHash.insert("Riley", 25);
+    myHash.insert("Kevin", 20);
+    myHash.printItems();
     return 0;
 }

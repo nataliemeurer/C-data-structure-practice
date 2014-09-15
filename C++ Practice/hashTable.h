@@ -17,7 +17,7 @@
 using namespace std;
 
 class hashTable {
-    int limit; // set size equal to 8 initially, to be resized later if necess for natural resizing
+    int limit = 8; // set size equal to 8 initially, to be resized later if necess for natural resizing
     hashEntry **storage;
     int count = 0;
     int hash(float key);
@@ -27,6 +27,9 @@ public:
     void resize(int newLimit);
     void insert(string key, double value);
     double remove(string key);
+    int getSize();
+    int getCount();
+    void printItems();
 };
 
 

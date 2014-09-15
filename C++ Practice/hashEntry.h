@@ -14,12 +14,12 @@
 using namespace std;
 
 class hashEntry{
-    string key = 0;
+    string key;
     int value = 0;
 public:
     hashEntry(string k, double v){
-        key = k;
-        value = v;
+        this->key = k;
+        this->value = v;
     };
     int getValue(){
         return value;
