@@ -12,8 +12,10 @@ node::node(){
     
 };
 
-node::node(int val){
-    
+node::node(float val){
+    value = to_string(val);
+    next = NULL;
+    prev = NULL;
 };//to be converted to a string for storage
 
 node::node(string val){

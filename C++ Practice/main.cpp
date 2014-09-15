@@ -8,18 +8,14 @@
 
 #include <iostream>
 #include "linkedList.h"
+#include "hashTable.h"
+
+using namespace std;
 
 int main(int argc, const char * argv[])
 {
     linkedList myList = *new linkedList();
     myList.addHead("hello");
     myList.addTail("Kevin");
-    
-    
-    
-    
-
-
     return 0;
 }
-

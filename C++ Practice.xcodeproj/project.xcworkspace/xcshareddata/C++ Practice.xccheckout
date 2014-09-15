@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2C07B681-5238-47F8-8415-C65619E376FB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>C++ Practice</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9EAF8558-EC73-4259-982E-E3BF8A125AEA</key>
+		<string>https://github.com/kmeurer/C-data-structure-practice.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>C++ Practice.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9EAF8558-EC73-4259-982E-E3BF8A125AEA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kmeurer/C-data-structure-practice.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9EAF8558-EC73-4259-982E-E3BF8A125AEA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9EAF8558-EC73-4259-982E-E3BF8A125AEA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Data Structures C++</string>
+		</dict>
+	</array>
+</dict>
+</plist>

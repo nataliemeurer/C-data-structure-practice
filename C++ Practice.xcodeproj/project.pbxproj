@@ -11,6 +11,8 @@
 		668E420319C629BE0073A4CF /* C___Practice.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 668E420219C629BE0073A4CF /* C___Practice.1 */; };
 		668E420B19C629E90073A4CF /* linkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 668E420919C629E90073A4CF /* linkedList.cpp */; };
 		668E420E19C62AA70073A4CF /* node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 668E420C19C62AA70073A4CF /* node.cpp */; };
+		668E421119C6672C0073A4CF /* hashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 668E420F19C6672C0073A4CF /* hashTable.cpp */; };
+		668E421419C66B350073A4CF /* hashEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 668E421219C66B350073A4CF /* hashEntry.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		668E420A19C629E90073A4CF /* linkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linkedList.h; sourceTree = "<group>"; };
 		668E420C19C62AA70073A4CF /* node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = node.cpp; sourceTree = "<group>"; };
 		668E420D19C62AA70073A4CF /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		668E420F19C6672C0073A4CF /* hashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hashTable.cpp; sourceTree = "<group>"; };
+		668E421019C6672C0073A4CF /* hashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashTable.h; sourceTree = "<group>"; };
+		668E421219C66B350073A4CF /* hashEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hashEntry.cpp; sourceTree = "<group>"; };
+		668E421319C66B350073A4CF /* hashEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hashEntry.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 			isa = PBXGroup;
 			children = (
 				668E420019C629BE0073A4CF /* main.cpp */,
+				668E420F19C6672C0073A4CF /* hashTable.cpp */,
+				668E421019C6672C0073A4CF /* hashTable.h */,
+				668E421219C66B350073A4CF /* hashEntry.cpp */,
+				668E421319C66B350073A4CF /* hashEntry.h */,
 				668E420919C629E90073A4CF /* linkedList.cpp */,
 				668E420A19C629E90073A4CF /* linkedList.h */,
 				668E420C19C62AA70073A4CF /* node.cpp */,
@@ -129,6 +139,8 @@
 			files = (
 				668E420B19C629E90073A4CF /* linkedList.cpp in Sources */,
 				668E420119C629BE0073A4CF /* main.cpp in Sources */,
+				668E421419C66B350073A4CF /* hashEntry.cpp in Sources */,
+				668E421119C6672C0073A4CF /* hashTable.cpp in Sources */,
 				668E420E19C62AA70073A4CF /* node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +251,7 @@
 				668E420819C629BE0073A4CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

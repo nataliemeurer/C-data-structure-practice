@@ -19,7 +19,7 @@ public:
     node *next;
     node *prev;
     node();
-    node(int val);//to be converted to a string for storage
+    node(float val);//to be converted to a string for storage
     node(string val);
 };
 
