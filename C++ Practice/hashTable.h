@@ -10,22 +10,25 @@
 #define __C___Practice__hashTable__
 
 #include <iostream>
+#include <vector>
 #include "hashEntry.h"
 
 
 using namespace std;
 
 class hashTable {
-    int _limit; // set size equal to 8 initially, to be resized later if necess for natural resizing
-    float *storage;
+    int limit; // set size equal to 8 initially, to be resized later if necess for natural resizing
+    hashEntry **storage;
+    int count = 0;
+    int hash(float key);
+    int hash(string key);
 public:
     hashTable();
     void resize(int newLimit);
-    void addItem(string key, double value);
-    double removeItem(string key);
+    void insert(string key, double value);
+    double remove(string key);
 };
 
-int hash(float key);//declared separately but inside hash file for convenience and organization
-int hash(string key);
+
 
 #endif /* defined(__C___Practice__hashTable__) */

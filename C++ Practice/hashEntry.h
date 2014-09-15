@@ -14,9 +14,13 @@
 using namespace std;
 
 class hashEntry{
-    string key;
-    int value;
+    string key = 0;
+    int value = 0;
 public:
+    hashEntry(string k, double v){
+        key = k;
+        value = v;
+    };
     int getValue(){
         return value;
     };
